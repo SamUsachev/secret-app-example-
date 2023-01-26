@@ -1,0 +1,59 @@
+.header{
+    background-color: rgb(117, 118, 180);
+    height: 70px;
+    max-width : 100%;
+
+}
+.main{
+    float: left;
+}
+
+* {box-sizing: border-box;}
+form {
+  width: auto;
+  ;
+  margin-right: 30px;
+}
+input {
+  width: 250px;
+  height: 42px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  top: 17px;
+  transition: .3s linear;
+}
+input:focus {
+  width: 300px;
+}
+button {
+  width: 42px;
+  height: 42px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: -2px;
+  right: 0;
+}
+button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+.login{
+    float: right;
+    position: relative;
+    bottom: 20px;
+    
+}
+.card{
+    float: right;
+    position: relative;
+    bottom: 20px;
+    right: 100px;
+    
+}
